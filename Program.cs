@@ -6,11 +6,9 @@ namespace Core_Escuela
     {
         static void Main(string[] args)
         {
-            var miEscuela = new Escuela();
-            miEscuela.name = "Pedro Luis Villa";
-            miEscuela.address = "Crr 37 # 66D - 18";
-            miEscuela.beep();
-            //Console.WriteLine("Hello World!");
+            var lalopez = new Escuela("Pedro Luis Villa", 1980, SchoolTypes.Primary, "Medellín");
+            lalopez.DoorBell();
+            Console.WriteLine(lalopez);
         }
     }
 }
