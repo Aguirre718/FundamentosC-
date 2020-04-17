@@ -32,10 +32,14 @@ namespace Core_Escuela
         // Constructor por programación funcional; igualación por tuplas
         public Escuela(string name, int year) => (Name, Year) = (name, year);
 
+        // Se pueden crear varios métodos con el mismo nombre siempre y cuando no tengan los mismo parámetros
+        public Escuela(string name, int year, SchoolTypes school, string city, string country="") => 
+                      (Name, Year, SchoolType, City, Country) = (name, year, school, city, country);
+
         // Sobre escribe la funcionalidad del método ToString: override
         public override string ToString()
         {
-            return $"Name: {Name}, School type: {SchoolType} \nYear: {Year}, Country: {Country}";
+            return $"Name: \"{Name}\", School type: {SchoolType} \nYear: {Year}, Country: {Country}";
         }
 
         public void DoorBell()
