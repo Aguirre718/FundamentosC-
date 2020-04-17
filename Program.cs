@@ -7,8 +7,11 @@ namespace Core_Escuela
         static void Main(string[] args)
         {
             var lalopez = new Escuela("Pedro Luis Villa", 1980);
-            lalopez.beep();
-            Console.WriteLine(lalopez.Name);
+            lalopez.SchoolType = SchoolTypes.Elemetary;
+            lalopez.DoorBell();
+            lalopez.City = "Medellín";
+            lalopez.Country = "Colombia";
+            Console.WriteLine(lalopez);
         }
     }
 }
