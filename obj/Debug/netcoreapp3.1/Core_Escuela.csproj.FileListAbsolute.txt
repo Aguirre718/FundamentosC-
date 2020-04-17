@@ -1,0 +1,13 @@
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\bin\Debug\netcoreapp3.1\Core_Escuela.exe
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\bin\Debug\netcoreapp3.1\Core_Escuela.deps.json
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\bin\Debug\netcoreapp3.1\Core_Escuela.runtimeconfig.json
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\bin\Debug\netcoreapp3.1\Core_Escuela.runtimeconfig.dev.json
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\bin\Debug\netcoreapp3.1\Core_Escuela.dll
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\bin\Debug\netcoreapp3.1\Core_Escuela.pdb
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.csprojAssemblyReference.cache
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.csproj.CoreCompileInputs.cache
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.AssemblyInfoInputs.cache
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.AssemblyInfo.cs
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.dll
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.pdb
+C:\Users\camil\Desktop\Cursos Platzi\Fundanentos de C# con NET Core\Proyectos\CoreEscuela\Core_Escuela\obj\Debug\netcoreapp3.1\Core_Escuela.genruntimeconfig.cache
