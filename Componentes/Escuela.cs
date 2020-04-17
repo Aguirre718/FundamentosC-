@@ -41,11 +41,5 @@ namespace Core_Escuela
         {
             return $"Name: \"{Name}\", School type: {SchoolType} \nYear: {Year}, Country: {Country}";
         }
-
-        public void DoorBell()
-        {
-            Console.Beep(1000, 2000);
-            Console.WriteLine("¡Already rang!");
-        }
     }
 }

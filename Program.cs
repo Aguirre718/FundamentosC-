@@ -6,17 +6,22 @@ namespace Core_Escuela
     {
         static void Main(string[] args)
         {
-            var lalopez = new Escuela("Pedro Luis Villa", 1980, SchoolTypes.Primary, "Medellín");
-            lalopez.DoorBell();
-            Console.WriteLine(lalopez);
-            Console.WriteLine("-----------------------------------------------------------------");
+            Console.WriteLine("     School Stage II    ");
+            var arrayGroups = new Group[3];
+            arrayGroups[0] = new Group("101");
+            arrayGroups[1] = new Group("201");
+            arrayGroups[2] = new Group("301");
 
-            var group1 = new Group("101");
-            var group2 = new Group("201");
-            var group3 = new Group("301");
-            Console.WriteLine(group1.Name + ", " + group1.UniqueId);
-            Console.WriteLine($"{group2.Name}, {group2.UniqueId}");
-            Console.WriteLine(group3);
+            // Método para recorrer el areglo
+            PrintGroups(arrayGroups);
+        }
+
+        private static void PrintGroups(Group[] arrayGroups)
+        {
+            for (int i = 0; i < arrayGroups.Length; i++)
+            {
+                Console.WriteLine(arrayGroups[i].Name + ", " + arrayGroups[i].UniqueId);
+            }
         }
     }
 }
