@@ -14,6 +14,7 @@ namespace Core_Escuela
             // Se instancia el objeto engine
             var engine = new SchoolEngine();
             engine.Initialize();
+            
 
             // Método para recorrer el areglo
             PrintGroups(engine.School);

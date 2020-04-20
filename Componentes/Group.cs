@@ -9,6 +9,8 @@ namespace Core_Escuela
         public string UniqueId { get; set; }
         public string Name { get; set; }
         public SchoolTime Time { get; set; }
+        public List<Subject> Subject { get; set; }
+        public List<Student> Student { get; set; }
 
         // Constructor en Programación Funcional
         public Group(string name) => (UniqueId, Name) = (Guid.NewGuid().ToString(), name);

@@ -7,6 +7,7 @@ namespace Core_Escuela
     public class Escuela
     {
         // Encapsulamiento forma compacta
+        public string UniqueId { get; set; } = Guid.NewGuid().ToString();
         public string Name { get; set; }
         public int Year { get; set; }
         public string Country { get; set; }
