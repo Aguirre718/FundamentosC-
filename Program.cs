@@ -8,7 +8,9 @@ namespace Core_Escuela
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("     School Stage IV    ");
+            Printer.Title("Stage IV");
+            Printer.DrawLine(20);
+
             // Se instancia el objeto engine
             var engine = new SchoolEngine();
             engine.Initialize();
