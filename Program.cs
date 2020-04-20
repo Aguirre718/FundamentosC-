@@ -33,6 +33,19 @@ namespace Core_Escuela
 
             // Agrega otra colección a la colección que ya tenía
             school.Groups.AddRange(othCollect);
+
+            // Delegado para buscar un elemento en una lista, cuando coincide
+            // un nombre retorna True y lo elimina, de lo contario retorna 
+            // False y no lo elimina
+            school.Groups.RemoveAll(delegate (Group gro)
+            {
+                return gro.Name == "301";
+            });
+
+            // Elimina elementos de la lista por medio de la expresón Lambda
+            // Igual es un delegado pero más compacto
+            school.Groups.RemoveAll((gro) => gro.Name == "501");
+            
             // Evalúa que el arreglo no este vació para que no salga excepción en el ciclo for
             // El interrogarotio indica que no evalua el arreglo Groups si el objeto school es null
             if (school?.Groups == null)
@@ -45,6 +58,10 @@ namespace Core_Escuela
             }
         }
 
+        /// <summary>
+        /// Comentar métodos
+        /// </summary>
+        /// <param name="school"></param>
         private static void PrintGroups(Escuela school)
         {
             foreach (Group Group in school.Groups)
