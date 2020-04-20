@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core_Escuela
 {
-    class Group
+    public class Group
     {
         public string UniqueId { get; set; }
         public string Name { get; set; }
