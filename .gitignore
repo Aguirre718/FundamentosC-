@@ -1,13 +1,16 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+/obj
+/Debug
+/Release
+
 
 # Other files and folders
 .settings/
 
 # Executables
+*.dll
+*.pdb
+*.cache
 *.swf
 *.air
 *.ipa
