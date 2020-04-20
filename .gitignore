@@ -1,11 +1,14 @@
 # Build and Release Folders
-/obj/
-*.cache
+/obj
+/Debug
+/Release
+
 
 # Other files and folders
 .settings/
 
 # Executables
+*.cache
 *.swf
 *.air
 *.ipa

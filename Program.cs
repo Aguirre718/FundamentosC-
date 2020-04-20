@@ -20,7 +20,7 @@ namespace Core_Escuela
             };
 
             // Evalúa que el arreglo no este vació para que no salga excepción en el ciclo for
-            // El interrogarotio indica que no evalua Groups si schoo es null
+            // El interrogarotio indica que no evalua el arreglo Groups si el objeto school es null
             if (school?.Groups == null)
             {
                 return;
