@@ -22,6 +22,8 @@ namespace Core_Escuela
         public string City { get; set; }
         public SchoolTypes SchoolType { get; set; }
 
+        public Group[] Groups { get; set; }
+
         /* Construcción de constructor en el paradigma de POO
         public Escuela(string name, int year)
         {
@@ -40,12 +42,6 @@ namespace Core_Escuela
         public override string ToString()
         {
             return $"Name: \"{Name}\", School type: {SchoolType} \nYear: {Year}, Country: {Country}";
-        }
-
-        public void DoorBell()
-        {
-            Console.Beep(1000, 2000);
-            Console.WriteLine("¡Already rang!");
         }
     }
 }

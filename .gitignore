@@ -1,5 +1,6 @@
 # Build and Release Folders
-/obj
+/obj/
+*.cache
 
 # Other files and folders
 .settings/
