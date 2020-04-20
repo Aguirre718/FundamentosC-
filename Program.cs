@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace Core_Escuela
 {
@@ -7,20 +8,34 @@ namespace Core_Escuela
         static void Main(string[] args)
         {
             Console.WriteLine("     School Stage II    ");
-            var arrayGroups = new Group[3];
-            arrayGroups[0] = new Group("101");
-            arrayGroups[1] = new Group("201");
-            arrayGroups[2] = new Group("301");
+            // Se instancia el objeto escuela, el cual tiene un atributo tipo arreglo
+            var school = new Escuela("Pedro Luis Villa", 2000, SchoolTypes.Primary, city: "Medellín")
+            {
+                Groups = new Group[]
+                {
+                    new Group("101"),
+                    new Group("201"),
+                    new Group("301")
+                }
+            };
 
-            // Método para recorrer el areglo
-            PrintGroups(arrayGroups);
+            // Evalúa que el arreglo no este vació para que no salga excepción en el ciclo for
+            // El interrogarotio indica que no evalua Groups si schoo es null
+            if (school?.Groups == null)
+            {
+                return;
+            }else
+            {
+                // Método para recorrer el areglo
+                PrintGroups(school.Groups);
+            }
         }
 
         private static void PrintGroups(Group[] arrayGroups)
         {
             for (int i = 0; i < arrayGroups.Length; i++)
             {
-                Console.WriteLine(arrayGroups[i].Name + ", " + arrayGroups[i].UniqueId);
+                WriteLine(arrayGroups[i].Name + ", " + arrayGroups[i].UniqueId);
             }
         }
     }
