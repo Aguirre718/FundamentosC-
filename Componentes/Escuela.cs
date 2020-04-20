@@ -22,7 +22,8 @@ namespace Core_Escuela
         public string City { get; set; }
         public SchoolTypes SchoolType { get; set; }
 
-        public Group[] Groups { get; set; }
+        // Declaración de una lista genérica 
+        public List<Group> Groups { get; set; }
 
         /* Construcción de constructor en el paradigma de POO
         public Escuela(string name, int year)

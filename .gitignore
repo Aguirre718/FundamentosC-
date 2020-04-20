@@ -8,6 +8,8 @@
 .settings/
 
 # Executables
+*.dll
+*.pdb
 *.cache
 *.swf
 *.air
