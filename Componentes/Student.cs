@@ -8,6 +8,7 @@ namespace Core_Escuela
     {
         public string UniqueId { get; set; }
         public string Name { get; set; }
+        public List<Evaluations> Evaluation { get; set; }
 
         // Constructor
         public Student(string name) => (UniqueId, Name) = (Guid.NewGuid().ToString(), name);

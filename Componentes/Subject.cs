@@ -8,6 +8,8 @@ namespace Core_Escuela
     {
         public string UniqueId { get; set; }
         public string Name { get; set; }
+        //ublic List<Evaluations> Evaluation { get; set; }
+
 
         public Subject() => (UniqueId) = Guid.NewGuid().ToString();
     }

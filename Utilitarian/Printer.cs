@@ -17,7 +17,7 @@ namespace Core_Escuela
         public static void Title(string title)
         {
             // Imprime dejando espacio a los lados
-            WriteLine($"{title}");
+            WriteLine($"   {title}   ");
         }
     }
 }
