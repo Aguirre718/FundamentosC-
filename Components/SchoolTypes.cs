@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core_Escuela
+namespace Core_Escuela.Components
 {
-    // La enumameración es un tipo de dato que nos permite crear una variable con unos valores posibles fijos.
     public enum SchoolTypes
     {
         Garden, Primary, Elemetary, HighSchool

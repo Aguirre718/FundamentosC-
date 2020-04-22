@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core_Escuela
+namespace Core_Escuela.Components
 {
     public enum SchoolTime
     {
