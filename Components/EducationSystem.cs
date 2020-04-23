@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Core_Escuela.Components
 {
-    public class EducationSystem
+    // El modificador abstract (abstracto) permite que la clase herede pero no permite instanciar objetos
+    public abstract class EducationSystem
     {
         public string UniqueId { get; set; }
         public string Name { get; set; }

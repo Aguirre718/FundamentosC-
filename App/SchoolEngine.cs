@@ -5,8 +5,9 @@ using System.Linq;
 
 namespace Core_Escuela.App
 {
-    public class SchoolEngine
+    public sealed class SchoolEngine
     {
+        // El modificador sealed (Sellado) permite instanciar objetos pero no heredar
         public School School { get; set; }
 
         // Constructor
@@ -93,9 +94,9 @@ namespace Core_Escuela.App
         private List<Student> GenerateStudents(int quantity)
         {
             // Arreglos para generar nombres
-            string[] name = { "Alexandra", "Juan" };
-            string[] lastName1 = { "Castrillón", "Aguirre" };
-            string[] LastName2 = { "Valencia", "Mesa" };
+            string[] name = { "Antonio", "Daniel" };
+            string[] lastName1 = { "Castrillón", "Restrepo" };
+            string[] LastName2 = { "Valencia", "Ortiz" };
 
             // Producto cartesiano
             var studentList = from n in name
