@@ -2,7 +2,7 @@
 /obj
 /Debug
 /Release
-
+/netcoreapp3.1
 
 # Other files and folders
 .settings/

@@ -19,6 +19,8 @@ namespace Core_Escuela
             var engine = new SchoolEngine();
             engine.Initialize();
 
+            Printer.Title($"Type: {engine.GetType()}");
+
 
             // Método para recorrer el areglo
             PrintGroups(engine.School);
